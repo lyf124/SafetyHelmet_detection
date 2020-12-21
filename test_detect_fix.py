@@ -88,10 +88,6 @@ C.num_rois = int(32)
 
 num_features = 512
 
-# if K.image_dim_ordering() == 'th':
-#     input_shape_img = (3, None, None)
-#     input_shape_features = (num_features, None, None)
-# else:
 input_shape_img = (None, None, 3)
 input_shape_features = (None, None, num_features)
 
